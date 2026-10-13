@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="background" x1="64" y1="24" x2="1114" y2="612" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10172A"/>
+      <stop offset=".58" stop-color="#263B7D"/>
+      <stop offset="1" stop-color="#4A60BD"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="82" y1="435" x2="550" y2="535" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFAD91"/>
+      <stop offset="1" stop-color="#F67568"/>
+    </linearGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#FFFFFF" fill-opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="630" rx="28" fill="url(#dots)"/>
+  <circle cx="1040" cy="145" r="185" fill="#8CA6FF" fill-opacity=".12"/>
+  <circle cx="1025" cy="148" r="118" stroke="#D9E2FF" stroke-opacity=".32" stroke-width="2"/>
+  <circle cx="1025" cy="148" r="78" stroke="#D9E2FF" stroke-opacity=".2" stroke-width="2"/>
+  <path d="M951 148h148M1025 74v148" stroke="#D9E2FF" stroke-opacity=".25" stroke-width="2"/>
+  <rect x="82" y="78" width="18" height="18" rx="9" fill="#FFAD91"/>
+  <text x="116" y="94" fill="#E9EDFF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2">DROZ_DEVELOPER</text>
+  <text x="82" y="235" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">Ivan John</text>
+  <text x="82" y="318" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">Mwalongo</text>
+  <text x="86" y="374" fill="#E9EDFF" font-family="Arial, Helvetica, sans-serif" font-size="25">Software systems · Android apps · Web products</text>
+  <rect x="82" y="431" width="456" height="64" rx="32" fill="url(#accent)"/>
+  <text x="111" y="472" fill="#321D27" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Health Information Technology</text>
+  <text x="86" y="558" fill="#D8E0FF" font-family="Arial, Helvetica, sans-serif" font-size="21">Two years of hands-on development experience</text>
+</svg>
