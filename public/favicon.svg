@@ -1,109 +1,88 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="512"
-     height="512"
-     viewBox="0 0 512 512">
+     width="512" height="512" viewBox="0 0 512 512">
 
   <defs>
-    <linearGradient id="surface"
-                    x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#F5FAFF"/>
-      <stop offset="100%" stop-color="#E5F1FF"/>
-    </linearGradient>
-
-    <linearGradient id="blue"
-                    x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#3979E8"/>
-      <stop offset="100%" stop-color="#2452B8"/>
-    </linearGradient>
-
-    <linearGradient id="aqua"
-                    x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0%" stop-color="#31C8C2"/>
-      <stop offset="100%" stop-color="#75E0D2"/>
-    </linearGradient>
-
-    <linearGradient id="textGradient"
-                    x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="100%" stop-color="#DCEBFF"/>
+    </linearGradient>
+
+    <linearGradient id="bear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4388F5"/>
+      <stop offset="100%" stop-color="#234DAA"/>
+    </linearGradient>
+
+    <linearGradient id="aqua" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6CE2D2"/>
+      <stop offset="100%" stop-color="#25BDB8"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="512" height="512"
-        rx="112" fill="url(#surface)"/>
+  <!-- Clean app-icon background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
 
-  <!-- Main orbital ring -->
-  <path
-    d="M256 82
-       C353 82 430 159 430 256
-       C430 353 353 430 256 430
-       C159 430 82 353 82 256
-       C82 214 97 175 121 144"
-    fill="none"
-    stroke="url(#blue)"
-    stroke-width="36"
-    stroke-linecap="round"/>
+  <!-- Technology orbit -->
+  <path d="M256 75
+           A181 181 0 1 1 105 156"
+        fill="none"
+        stroke="#3475DB"
+        stroke-width="23"
+        stroke-linecap="round"/>
 
-  <!-- Orbit accent -->
-  <path
-    d="M146 115
-       C178 91 216 78 256 78"
-    fill="none"
-    stroke="url(#aqua)"
-    stroke-width="23"
-    stroke-linecap="round"/>
+  <path d="M122 133 A181 181 0 0 1 207 82"
+        fill="none"
+        stroke="url(#aqua)"
+        stroke-width="18"
+        stroke-linecap="round"/>
 
-  <!-- Central pentagon -->
-  <path
-    d="M256 159
-       L338 206
-       L338 300
-       L256 347
-       L174 300
-       L174 206 Z"
-    fill="url(#blue)"/>
+  <circle cx="393" cy="133" r="19" fill="url(#aqua)"/>
 
-  <!-- Inner pentagon -->
-  <path
-    d="M256 199
-       L303 226
-       L303 280
-       L256 307
-       L209 280
-       L209 226 Z"
-    fill="#FFFFFF"/>
+  <!-- Bear ears -->
+  <circle cx="191" cy="194" r="48" fill="url(#bear)"/>
+  <circle cx="321" cy="194" r="48" fill="url(#bear)"/>
 
-  <!-- Turquoise center -->
-  <path
-    d="M256 221
-       L287 239
-       L287 267
-       L256 285
-       L225 267
-       L225 239 Z"
-    fill="url(#aqua)"/>
+  <!-- Inner ears -->
+  <circle cx="191" cy="196" r="23" fill="url(#aqua)"/>
+  <circle cx="321" cy="196" r="23" fill="url(#aqua)"/>
 
-  <!-- Stylish Droz wordmark -->
-  <text
-    x="256"
-    y="266"
-    text-anchor="middle"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="43"
-    font-weight="800"
-    font-style="italic"
-    letter-spacing="-2.5"
-    fill="#FFFFFF"
-    stroke="#2452B8"
-    stroke-width="1.2"
-    paint-order="stroke fill">droz</text>
+  <!-- Bear head -->
+  <path d="M256 154
+           C194 154 155 197 155 258
+           C155 320 198 358 256 358
+           C314 358 357 320 357 258
+           C357 197 318 154 256 154 Z"
+        fill="url(#bear)"/>
 
-  <!-- Orbit point -->
-  <circle cx="390" cy="130" r="24"
-          fill="#FFFFFF"/>
+  <!-- Soft muzzle -->
+  <ellipse cx="256" cy="285" rx="67" ry="49" fill="#F7FBFF"/>
 
-  <circle cx="390" cy="130" r="15"
-          fill="#31C8C2"/>
+  <!-- Eyes -->
+  <ellipse cx="218" cy="246" rx="9" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="294" cy="246" rx="9" ry="12" fill="#FFFFFF"/>
+
+  <!-- Nose -->
+  <path d="M239 273
+           Q256 260 273 273
+           Q273 288 256 291
+           Q239 288 239 273 Z"
+        fill="#193A78"/>
+
+  <!-- Small friendly smile -->
+  <path d="M256 291 Q246 306 234 298
+           M256 291 Q266 306 278 298"
+        fill="none"
+        stroke="#193A78"
+        stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- Subtle D brand mark -->
+  <path d="M246 319 L246 333
+           Q262 333 262 321
+           Q262 309 246 309"
+        fill="none"
+        stroke="url(#aqua)"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
 
 </svg>
