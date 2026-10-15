@@ -435,16 +435,40 @@ function App() {
                 <span className="section-kicker">Diploma</span>
                 <h3>Health Information Technology</h3>
                 <p>Kilenzi Memorial College of Health and Allied Science</p>
+                <a
+                  className="mini-btn primary school-btn"
+                  href="https://www.kimchas.ac.tz/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Visit school
+                </a>
               </article>
               <article className="education-card">
                 <span className="section-kicker">Secondary education</span>
                 <h3>Kimbiji Secondary School</h3>
                 <p>Kigamboni District, Dar es Salaam, Tanzania</p>
+                <a
+                  className="mini-btn primary school-btn"
+                  href="https://www.google.com/maps/search/?api=1&query=Kimbiji+Secondary+School+Dar+es+Salaam+Tanzania"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Visit school
+                </a>
               </article>
               <article className="education-card">
                 <span className="section-kicker">Primary education</span>
-                <h3>Sandary Primary School</h3>
+                <h3>Sandali Primary School</h3>
                 <p>Temeke District, Dar es Salaam, Tanzania</p>
+                <a
+                  className="mini-btn primary school-btn"
+                  href="https://www.google.com/maps/search/?api=1&query=Sandali+Primary+School+Dar+es+Salaam+Tanzania"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Visit school
+                </a>
               </article>
             </div>
           </div>
