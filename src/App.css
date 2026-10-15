@@ -2144,6 +2144,12 @@ input:focus-visible {
   font-size: 1.15rem;
 }
 
+.education-card .school-btn {
+  width: fit-content;
+  margin-top: 16px;
+  padding-inline: 1rem;
+}
+
 .portrait-image {
   display: block;
   object-fit: cover;
